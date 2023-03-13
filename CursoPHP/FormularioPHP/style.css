@@ -1,0 +1,56 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    
+}
+
+.title{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.campo{
+    padding-right:8rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;;
+   /*  width: 100%;
+    max-width: 500px; */
+}
+.campo::placeholder {
+    text-align: start;
+}
+
+#btn{
+    border: 0;
+    line-height: 2.5;
+    width:10rem;
+    padding: 0 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: black;
+    cursor:pointer;
+    
+}
+
+#btn:hover{
+    /* -webkit-filter: blur(5px);
+    filter: blur(5px); */
+    -webkit-transform: scale(1.1);
+    transform: scale(5);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
